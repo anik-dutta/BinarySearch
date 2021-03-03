@@ -13,7 +13,7 @@ public class ReverseInteger
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("\nEnter the NUMBER: ");
+		System.out.print("Enter the number: ");
 		int x = sc.nextInt();
 		Solution ob = new Solution();
 		System.out.print(ob.reverse(x));
